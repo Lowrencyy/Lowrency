@@ -11,63 +11,38 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
-        <div className="w-full flex flex-col items-center justify-center m-auto">
-            <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
-                
-
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Community</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Youtube</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Discord</span>    
-                    </p>
-                </div>
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Social Media</div>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
-                    </p>
-                </div>
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">About</div>
-                   <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                     
-                        <span className="text-[15px] ml-[6px]">Become Sponsor</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                      
-                        <span className="text-[15px] ml-[6px]">Learning about me</span>    
-                    </p>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                  
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
-                    </p>
-                </div>
-            </div>
-
-            <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
-            </div>
-        </div>
+    <footer className="p-4 bg-transparent md:p-8 lg:p-10 dark:bg-gray-800">
+    <div className="mx-auto max-w-screen-xl text-center">
+        <a href="#" className="flex justify-center items-center text-2xl font-semibold text-white dark:text-white">
+            MARK LAURENCE TOMENIO    
+        </a>
+        <p className="my-6 text-gray-500 dark:text-white">Here's My Additional Contact Info</p>
+        <ul className="flex flex-wrap justify-center items-center mb-6 text-white dark:text-white">
+            <li>
+                <a href="#" className="mr-4 hover:underline md:mr-6 ">Facebook</a>
+            </li>
+            <li>
+                <a href="#" className="mr-4 hover:underline md:mr-6">Instagram</a>
+            </li>
+            <li>
+                <a href="#" className="mr-4 hover:underline md:mr-6 ">LinkedIn</a>
+            </li>
+            <li>
+                <a href="#" className="mr-4 hover:underline md:mr-6">Messenger</a>
+            </li>
+            <li>
+                <a href="#" className="mr-4 hover:underline md:mr-6">Telegram</a>
+            </li>
+            <li>
+                <a href="#" className="mr-4 hover:underline md:mr-6">Github</a>
+            </li>
+            <li>
+                <a href="#" className="mr-4 hover:underline md:mr-6">Contact</a>
+            </li>
+        </ul>
+        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023<a href="#" className="hover:underline">Mark Laurence Tomenio</a>. All Rights Reserved.</span>
     </div>
+  </footer>
   )
 }
 
