@@ -13,8 +13,8 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/NextWebsite.png"
-          title="Discover Philippines"
-          description="A Travel Website That Promoting Our Country! I create this website using HTML CSS BOOTSTRAP and Javascript"
+          title="Modern Next.js Portfolio"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
         <ProjectCard
           src="/CardImage.png"
@@ -26,12 +26,6 @@ const Projects = () => {
           title="Space Themed Website"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
-        <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        
       </div>
     </div>
   );

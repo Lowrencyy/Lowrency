@@ -1,6 +1,6 @@
-import { Socials } from '@/constants'
-import Image from 'next/image'
-import React from 'react'
+import { Socials } from "@/constants";
+import Image from "next/image";
+import React from "react";
 
 const Navbar = () => {
   return (
@@ -19,7 +19,7 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            MARK LAURENCE TOMENIO
+            WebChain Dev
           </span>
         </a>
 
@@ -28,8 +28,8 @@ const Navbar = () => {
             <a href="#about-me" className="cursor-pointer">
               About me
             </a>
-            <a href="#tech-stack" className="cursor-pointer">
-              TECH STACK
+            <a href="#skills" className="cursor-pointer">
+              Skills
             </a>
             <a href="#projects" className="cursor-pointer">
               Projects
@@ -39,18 +39,18 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
-            <a href="#"><Image
+            <Image
               src={social.src}
               alt={social.name}
               key={social.name}
               width={24}
               height={24}
-            /></a>
+            />
           ))}
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
